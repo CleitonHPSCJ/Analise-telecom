@@ -3,6 +3,7 @@
 -- Objetivo: Identificar onde cada operadora
 -- fatura mais.
 -- =============================================
+
 SELECT tc.telecom_partner AS Operadoras,
   tc.state AS Estados,
   COUNT(*) AS Total_Cliente,
